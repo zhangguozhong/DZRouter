@@ -311,7 +311,7 @@
         }
         canOpen = YES;
     }else{
-        NSLog(@"未找到相关类!");
+        NSLog(@"未找到相关类!，这个功能待优化，可降级出来，跳转WebView页面处理");
     }
     
     return canOpen;
@@ -321,9 +321,7 @@
     if (self.currentController.navigationController) {
         [self.currentController.navigationController pushViewController:targetController animated:YES];
     }else{
-        [self.currentController presentViewController:targetController animated:YES completion:^{
-            NSLog(@"打开成功");
-        }];
+        [self.currentController presentViewController:targetController animated:YES completion:nil];
     }
     
 }
