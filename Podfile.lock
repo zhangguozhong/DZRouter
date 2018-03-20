@@ -1,0 +1,12 @@
+PODS:
+  - ZTopViewController (1.0.0)
+
+DEPENDENCIES:
+  - ZTopViewController
+
+SPEC CHECKSUMS:
+  ZTopViewController: fb348748e64d31bd4a29da18963090dcf0dffde9
+
+PODFILE CHECKSUM: 55ae0630bd910b4b35f9f627e8de3fc27c40409f
+
+COCOAPODS: 1.4.0

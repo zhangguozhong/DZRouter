@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A392ACE6BB7D45A6A5D244AF2BA0A15 /* Pods-DZRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C862DCF080B9136B23DA15C86CB42 /* Pods-DZRouter-dummy.m */; };
+		3C1698404C051BC99E2972D9A121CF30 /* ZTopViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D9D0F22CA489F6CE49E6BC42B514F /* ZTopViewController-dummy.m */; };
+		791D4B972025A41025A11943E11FEBFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8256E1F49CDAA077FDFEFD837BF5D524 /* NSObject+ZTopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27712F394AA4385EFDA44EFFFBCBEC37 /* NSObject+ZTopViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF5723A8319B02F90ABF5D69B7A8F043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		DC51F918EF6E347562AF7485EF734BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E8CE04B2D8CD3DD352EC28AE0B9CCA71 /* NSObject+ZTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7165CDF77BFFA30E5337FBD33FA06E22 /* NSObject+ZTopViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C427D1B80DB00748749E4898234F7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3071464BD1BC84C8D30D0DD90FBDDE69;
+			remoteInfo = ZTopViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DF76201BBFA1260CDFC92350605E68 /* libPods-DZRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DZRouter.a"; path = "libPods-DZRouter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E88902FC5E583EF3B4B7A33D69F01B0 /* Pods-DZRouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZRouter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		243C862DCF080B9136B23DA15C86CB42 /* Pods-DZRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZRouter-dummy.m"; sourceTree = "<group>"; };
+		27712F394AA4385EFDA44EFFFBCBEC37 /* NSObject+ZTopViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZTopViewController.h"; path = "ZTopViewContoller/Classes/NSObject+ZTopViewController.h"; sourceTree = "<group>"; };
+		2F7D9D0F22CA489F6CE49E6BC42B514F /* ZTopViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTopViewController-dummy.m"; sourceTree = "<group>"; };
+		33BB113E4FD75FD945E2C4581ED24774 /* ZTopViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTopViewController-prefix.pch"; sourceTree = "<group>"; };
+		3794A935BE51937CDFEAF44F2F98846B /* Pods-DZRouter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZRouter-resources.sh"; sourceTree = "<group>"; };
+		3B32C1A79D7DDAA798400FBF8033E4CE /* Pods-DZRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		7165CDF77BFFA30E5337FBD33FA06E22 /* NSObject+ZTopViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZTopViewController.m"; path = "ZTopViewContoller/Classes/NSObject+ZTopViewController.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A89CBA293293F8FE9090C37782A510EC /* Pods-DZRouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZRouter-acknowledgements.plist"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C40925315B05985D659D5D9F527F59E9 /* libZTopViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZTopViewController.a; path = libZTopViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7A36041C513714E763AA12F8BF4E86B /* Pods-DZRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZRouter.release.xcconfig"; sourceTree = "<group>"; };
+		EDC1DC903700A1EAB7BE8D6C37781ECF /* Pods-DZRouter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZRouter-frameworks.sh"; sourceTree = "<group>"; };
+		F2D4E9527DB625C3BC01CCC695392EF5 /* ZTopViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTopViewController.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4184589C045902B0715E3446F369EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791D4B972025A41025A11943E11FEBFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F785EB18B0E765873EAC64EC48F8C0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC51F918EF6E347562AF7485EF734BA0 /* Foundation.framework in Frameworks */,
+				CF5723A8319B02F90ABF5D69B7A8F043 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045BE3EA37CAF93B23CE8CF0FF389515 /* Pods-DZRouter */ = {
+			isa = PBXGroup;
+			children = (
+				1E88902FC5E583EF3B4B7A33D69F01B0 /* Pods-DZRouter-acknowledgements.markdown */,
+				A89CBA293293F8FE9090C37782A510EC /* Pods-DZRouter-acknowledgements.plist */,
+				243C862DCF080B9136B23DA15C86CB42 /* Pods-DZRouter-dummy.m */,
+				EDC1DC903700A1EAB7BE8D6C37781ECF /* Pods-DZRouter-frameworks.sh */,
+				3794A935BE51937CDFEAF44F2F98846B /* Pods-DZRouter-resources.sh */,
+				3B32C1A79D7DDAA798400FBF8033E4CE /* Pods-DZRouter.debug.xcconfig */,
+				E7A36041C513714E763AA12F8BF4E86B /* Pods-DZRouter.release.xcconfig */,
+			);
+			name = "Pods-DZRouter";
+			path = "Target Support Files/Pods-DZRouter";
+			sourceTree = "<group>";
+		};
+		159EEF6A1015E4B4505F64BFB5C17C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5399B063E0B78F04B83D7F95AEBCEF8F /* ZTopViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5399B063E0B78F04B83D7F95AEBCEF8F /* ZTopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27712F394AA4385EFDA44EFFFBCBEC37 /* NSObject+ZTopViewController.h */,
+				7165CDF77BFFA30E5337FBD33FA06E22 /* NSObject+ZTopViewController.m */,
+				DA879B4A02B407BADE3A3E366585D5D8 /* Support Files */,
+			);
+			name = ZTopViewController;
+			path = ZTopViewController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				159EEF6A1015E4B4505F64BFB5C17C9A /* Pods */,
+				CF2412F329E848CC14E9C0205E71B82A /* Products */,
+				B0276253ECF98DBEB6F363D8E6930895 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B0276253ECF98DBEB6F363D8E6930895 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				045BE3EA37CAF93B23CE8CF0FF389515 /* Pods-DZRouter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF2412F329E848CC14E9C0205E71B82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DF76201BBFA1260CDFC92350605E68 /* libPods-DZRouter.a */,
+				C40925315B05985D659D5D9F527F59E9 /* libZTopViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA879B4A02B407BADE3A3E366585D5D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D4E9527DB625C3BC01CCC695392EF5 /* ZTopViewController.xcconfig */,
+				2F7D9D0F22CA489F6CE49E6BC42B514F /* ZTopViewController-dummy.m */,
+				33BB113E4FD75FD945E2C4581ED24774 /* ZTopViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZTopViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC47B7AEF836196C97B92FD526DD060F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8256E1F49CDAA077FDFEFD837BF5D524 /* NSObject+ZTopViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0231B42420BBB26CD48C5CC423A6C631 /* Pods-DZRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0645147E1B28D8A4121E392699035997 /* Build configuration list for PBXNativeTarget "Pods-DZRouter" */;
+			buildPhases = (
+				86BDF4F4E21AE890EF310A2D456A8E8F /* Sources */,
+				C4184589C045902B0715E3446F369EE0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9802C4571918E7AC8445EB39E80A29CC /* PBXTargetDependency */,
+			);
+			name = "Pods-DZRouter";
+			productName = "Pods-DZRouter";
+			productReference = 05DF76201BBFA1260CDFC92350605E68 /* libPods-DZRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3071464BD1BC84C8D30D0DD90FBDDE69 /* ZTopViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942D012D6AC1E6B96D54A8B7AAF4AE64 /* Build configuration list for PBXNativeTarget "ZTopViewController" */;
+			buildPhases = (
+				49F2B8701C6AF855846E68CA5CB87B0D /* Sources */,
+				F785EB18B0E765873EAC64EC48F8C0DA /* Frameworks */,
+				CC47B7AEF836196C97B92FD526DD060F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTopViewController;
+			productName = ZTopViewController;
+			productReference = C40925315B05985D659D5D9F527F59E9 /* libZTopViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CF2412F329E848CC14E9C0205E71B82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0231B42420BBB26CD48C5CC423A6C631 /* Pods-DZRouter */,
+				3071464BD1BC84C8D30D0DD90FBDDE69 /* ZTopViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F2B8701C6AF855846E68CA5CB87B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CE04B2D8CD3DD352EC28AE0B9CCA71 /* NSObject+ZTopViewController.m in Sources */,
+				3C1698404C051BC99E2972D9A121CF30 /* ZTopViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BDF4F4E21AE890EF310A2D456A8E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A392ACE6BB7D45A6A5D244AF2BA0A15 /* Pods-DZRouter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9802C4571918E7AC8445EB39E80A29CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZTopViewController;
+			target = 3071464BD1BC84C8D30D0DD90FBDDE69 /* ZTopViewController */;
+			targetProxy = 8C427D1B80DB00748749E4898234F7CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25B26735356740CD1BA659BD3AEC6164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A36041C513714E763AA12F8BF4E86B /* Pods-DZRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6320E5BABEA57C8F114F1CAE8135BEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D4E9527DB625C3BC01CCC695392EF5 /* ZTopViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTopViewController/ZTopViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B53A03811D730E5254E63680DDE43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D4E9527DB625C3BC01CCC695392EF5 /* ZTopViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTopViewController/ZTopViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FFF02766CC60286DAD060A200711F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B32C1A79D7DDAA798400FBF8033E4CE /* Pods-DZRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0645147E1B28D8A4121E392699035997 /* Build configuration list for PBXNativeTarget "Pods-DZRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF02766CC60286DAD060A200711F1E5 /* Debug */,
+				25B26735356740CD1BA659BD3AEC6164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942D012D6AC1E6B96D54A8B7AAF4AE64 /* Build configuration list for PBXNativeTarget "ZTopViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B53A03811D730E5254E63680DDE43C /* Debug */,
+				6320E5BABEA57C8F114F1CAE8135BEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
