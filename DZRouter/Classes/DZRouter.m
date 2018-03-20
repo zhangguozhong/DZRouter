@@ -318,6 +318,7 @@
 }
 
 - (void)pushTargetController:(UIViewController *)targetController {
+    // 这里跳转逻辑，优先push跳转，其次present
     if (self.currentController.navigationController) {
         [self.currentController.navigationController pushViewController:targetController animated:YES];
     }else{
