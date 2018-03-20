@@ -90,6 +90,7 @@
 		77BC477D20614C8F00EC91A0 /* DZRouter */ = {
 			isa = PBXGroup;
 			children = (
+				77BC479820614D3500EC91A0 /* Categories */,
 				77BC479C20614E5E00EC91A0 /* Resource */,
 				77BC479420614CB600EC91A0 /* Classes */,
 				77BC477E20614C8F00EC91A0 /* AppDelegate.h */,
@@ -108,7 +109,6 @@
 		77BC479420614CB600EC91A0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				77BC479820614D3500EC91A0 /* Categories */,
 				77BC479520614CCD00EC91A0 /* DZRouter.h */,
 				77BC479620614CCD00EC91A0 /* DZRouter.m */,
 			);
