@@ -29,6 +29,7 @@
 ```
 
 ### 总结
-之前一直在纠结，push与present跳转逻辑如何设计：（1）是封装在中间件的逻辑，（2）是留一个回调让开发者自行决定选择何种方式；细细想过之后却发现这个问题不需要这个中间件组件中考虑，因为大家想想看减少耦合是组件化的要实现的目标，即不需要引入头文件就能使用该文件。因此ViewController中存在`[self.navigationController pushViewController:targetController animated:YES];`的代码并不增加耦合度，然而选择第（2）种方式跳转的逻辑会更加清晰。
+1、之前一直在纠结，push与present跳转逻辑如何设计：（1）是封装在中间件的逻辑，（2）是留一个回调让开发者自行决定选择何种方式；细细想过之后却发现这个问题不需要这个中间件组件中考虑，因为大家想想看减少耦合是组件化的要实现的目标，即不需要引入头文件就能使用该文件。因此ViewController中存在`[self.navigationController pushViewController:targetController animated:YES];`的代码并不增加耦合度，然而选择第（2）种方式跳转的逻辑会更加清晰；
+2、所以我加上completion回调，专门用来执行push或者是present跳转界面逻辑的。
 
 
