@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DZRouter"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "封装好的简单URL Router中间件，用于解耦。"
 
   # This description is used to generate tags and improve search results.
@@ -133,6 +133,11 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+
+  s.subspec 'Categories' do |c|
+    c.source_files = 'DZRouter/Categories/**/*.{h,m}'
+  end
+
   s.dependency "ZTopViewController"
 
 end

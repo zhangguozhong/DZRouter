@@ -18,7 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[DZRouter sharedDZRouter] configAllowSchemes:@[@"demo",@"zhangsan"]];
+    
+    // 配置schemes，用于判断路由是否是合法的路由；
+    [[DZRouter sharedDZRouter] configAllowSchemes:@[@"myapp",@"zhangsan"]];
+    
+    // 初始化路由，读取的是routes.plist文件
     [DZRouter registerRoutePatterns];
     return YES;
 }
